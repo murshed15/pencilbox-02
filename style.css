@@ -1,0 +1,62 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1, h2, h3, h4 {
+    margin-top: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Navigation Styles */
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+.navbar-nav .nav-item .nav-link {
+    padding: 10px 15px;
+    font-size: 1rem;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+/* Banner Styles */
+#banner {
+    background-image: url('image/banner.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding-bottom: 150px;
+}
+
+#banner h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+/* Form Styles */
+form input, form textarea {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 100%;
+}
+
+form button {
+    background-color: #007bff;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
